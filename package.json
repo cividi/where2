@@ -1,17 +1,16 @@
 {
   "name": "where2",
-  "version": "0.0.1",
   "description": "easily create APIs from GeoJSON files",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
-    "spatialite" : "0.0.6",
-    "node-cron": "1.1.1",
-    "request": "2.72.0",
-    "restify": "4.0.4"
+    "spatialite": "0.1.0",
+    "node-cron": "1.2.1",
+    "request": "2.88.2",
+    "restify": "4.3.4"
   },
   "engines": {
     "node": "4.4.5"

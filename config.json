@@ -7,27 +7,6 @@
 		"map_zoom": 13
 	},
 	"data": [{
-		"name": "KunstImStadtraum",
-		"url": "https://data.stadt-zuerich.ch/dataset/kunst_im_stadtraum/resource/3e42de5e-b098-4b61-a965-b32f3439b4b7/download/kis.json",
-		"schedule": "3 0 1 * *"
-	},{
-		"name": "baumkataster",
-		"url": "https://data.stadt-zuerich.ch/dataset/baumkataster/resource/c7e85cfe-7899-4aa4-9a59-3b0c7b6a4937/download/baumkataster.json",
-		"schedule": "3 10 1 * *",
-		"schema": {
-			"Baumname_D": "TEXT",
-			"Baumname_LAT": "TEXT",
-			"Strasse": "TEXT",
-			"Baumnummer": "TEXT",
-			"Baumart_LAT": "TEXT",
-			"Pflanzjahr": "INT",
-			"Baumgattung": "TEXT"
-		}
-	}, {
-		"name": "velo",
-		"url": "https://data.stadt-zuerich.ch/dataset/veloweg/resource/5f6c2689-824c-4c11-972f-bb5736b342be/download/veloweg.json",
-		"schedule": "3 20 1 * *"
-	}, {
 		"name": "statquart",
 		"path": "statquart.geojson"
 	}],
